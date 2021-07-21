@@ -1,0 +1,1 @@
+select b.bl_date, count(*) from apps.login_ctl_baseline b group by b.bl_date order by 1 desc;
